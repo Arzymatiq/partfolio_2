@@ -1,0 +1,18 @@
+.background-animation {
+    background-color: #3498db; /* Начальный цвет фона */
+    animation: backgroundFade 3s ease infinite alternate;
+}
+
+@keyframes backgroundFade {
+    0% {
+        background-color: #3498db; /* Начальный цвет фона */
+    }
+    100% {
+        background-color: #e74c3c; /* Конечный цвет фона */
+    }
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Это важно! */
+}
